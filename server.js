@@ -12,6 +12,7 @@ app.set("view engine", "ejs")
 //     res.render('index', {text: "world"})
 // })
 
+
 const UserRouter = require("./routes/users")
 
 app.use("/users", UserRouter)
